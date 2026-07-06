@@ -5,13 +5,19 @@
         <link rel="stylesheet" href="login.css">
     </head>
     <body>
-        <form>
-                     <h1>Login</h1>
-                    <label for="username">Username:</label>
-                    <input type="text" id="username" name="username" required><br><br>
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required><br><br>
-                    <input type="submit" value="Login">
+        <div>
+        <form action="">
+                     <h1>Login with email</h1>
+                     <div class="input-group">
+                    
+                    <input type="text" id="email" name="email" required>
+                    <label for="email">Email:</label></div>
+                    <div class="input-group">
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password:</label></div>
+                    <div class="input-button">
+                    <input type="submit" value="Login"></div>
+        </div>           
         </form>
-    </body>
+    </body> 
 </html>

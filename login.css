@@ -7,6 +7,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 form{
     width: 400px;
@@ -25,7 +27,8 @@ h1{
     margin: auto;
     margin-bottom: 30px;
     color:#F59E0B;
-    position: relative;
+    flex-direction: column;
+   position: relative;
 }
 .input-group {
 width: 300px;

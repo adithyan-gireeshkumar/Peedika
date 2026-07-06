@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: rgba(146, 116, 116, 0.15);
+    padding: 20px;
+    position:absolute;
+    top: 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: rgb(66, 34, 0);
+    margin-right: 100px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family:Tahoma;
+}
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("ChatGPT Image Jul 5, 2026, 09_47_56 AM.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left-section{
+    width: 600px;
+    margin-left: 100px;
+
+}
+.left-section h1{
+     font-size:72px;
+    font-weight:800;
+    color:#3b1c00;
+    line-height:1;
+    letter-spacing:-2px;
+}
+.left-section h2{
+     margin-top:20px;
+
+    font-size:24px;
+
+    color:#7d4700;
+
+    font-weight:600;
+}
+.left-section h3{
+    margin-top:24px;
+
+    width:550px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#6f5131;
+}
+.left-section button{
+     padding:12px 50px;
+
+    background:#ffffff;
+
+    color:rgb(187, 87, 6);
+
+    border:none;
+
+    border-radius:6px;
+
+    margin-top:16px;
+    cursor: pointer;
+
+}
+.left-section button:hover{
+    background-color: rgb(131, 72, 24);
+    color: #ffffff;
+}

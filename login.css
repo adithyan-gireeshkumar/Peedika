@@ -1,0 +1,19 @@
+body{
+    background-color: #cf6c16;
+}
+form{
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow:0 5px 6px rgba(0,0,0,0.26);
+}
+h1{
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(136,136,136)
+}

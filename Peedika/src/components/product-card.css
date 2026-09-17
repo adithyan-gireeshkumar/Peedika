@@ -1,0 +1,34 @@
+.coconut{
+      background-color: #f4b942;
+}
+.product-card {
+  width: min(100%, 18rem);
+
+  overflow: hidden;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 10px 5px 26px rgba(0, 0, 0, 0);
+}
+
+.product-card-image-wrap {
+  aspect-ratio: 1 / 1;
+}
+
+.product-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 180ms ease-in-out;
+}
+
+.product-card:hover .product-card-image {
+  transform: scale(1.1) rotate(-5deg);
+}
+.card-text{
+    color:red;
+    font-weight: bold;
+    border: black;
+}

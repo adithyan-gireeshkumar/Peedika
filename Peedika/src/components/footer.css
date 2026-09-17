@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.card-header {
+   
+   background-color: #d9ff00;
+    
+    
+}
+.card-body-footer{
+    background-color: #02163d;
+}
+.card-title{
+    color:white;
+}

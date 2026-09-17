@@ -4,7 +4,7 @@ function Footer(){
         <footer>
             <div className="card text-center">
   <div className="card-header">
-    <strong>Developed by</strong> <a href="www.linkedin.com/in/adithyan-gireeshkumar-0b4015412">Adithyan Gireeshkumar</a>
+    <strong>Developed by</strong> <a href="https://www.linkedin.com/in/adithyan-gireeshkumar-0b4015412/">Adithyan Gireeshkumar</a>
   </div>
   <div className="card-body-footer">
     <h5 className="card-title " >FOLLOW ME</h5>

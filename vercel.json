@@ -1,0 +1,5 @@
+{
+  "installCommand": "cd Peedika && npm ci",
+  "buildCommand": "cd Peedika && npm run build",
+  "outputDirectory": "Peedika/dist"
+}

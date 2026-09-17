@@ -9,9 +9,11 @@ function App() {
     <div className="App">
       <Header />
       <Body />
-      <div id="products" className="products row row-cols-1 row-cols-md-3 g-4">
+      <div id="products" className="products row row-cols-1 row-cols-md-5 g-4">
       <ProductCard />
       <ProductCard />
+      <ProductCard/>
+      <ProductCard/>
       <ProductCard/>
       </div>
       <Footer/>

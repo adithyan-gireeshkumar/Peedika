@@ -21,3 +21,8 @@ button:hover{
     cursor: pointer;
     
 }
+.footer-container{
+    width: 100%;
+    min-height: 10rem;
+    background-color: #f8ca6e;
+}

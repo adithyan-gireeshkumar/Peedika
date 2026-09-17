@@ -4,11 +4,11 @@ function Header() {
     return (
     <header>
          <div className="container">
-            <a href="#">Peedika</a>
+            <a href="#Home">Peedika</a>
             <nav>
-                <a href="#">Home</a>
+                <a href="#Home">Home</a>
                 <a href="#products">Products</a>
-                <a href="#">About</a>
+                <a href="#About">About</a>
             </nav>
             </div>
        </header>

@@ -6,8 +6,8 @@ import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="App"><div id="Home">
+      <Header /></div>
       <Body />
       <div id="products" className="products row row-cols-1 row-cols-md-5 g-4">
       <ProductCard />
@@ -16,7 +16,9 @@ function App() {
       <ProductCard/>
       <ProductCard/>
       </div>
+      <div id="About" className="footer-container">
       <Footer/>
+      </div>
     </div>
   )
 }

@@ -9,7 +9,14 @@
 }
 .card-body-footer{
     background-color: #02163d;
+    
+}
+.card-body-footer h5{
+    margin : 10px;
 }
 .card-title{
     color:white;
+}
+.card-body-footer a{
+    margin-bottom: 25px;
 }
